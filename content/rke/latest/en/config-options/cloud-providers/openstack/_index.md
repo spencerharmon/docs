@@ -71,8 +71,8 @@ These are the options that are available under the `load_balancer` directive.
 |       lb-provider      	| string 	|      |
 | manage-security-groups 	|  bool  	|      |
 |     create-monitor     	|  bool  	|      |
-|      monitor-delay     	|   int  	|   * if `create-monitor` is true   |
-|     monitor-timeout    	|   int  	|   * if `create-monitor` is true    |
+|      monitor-delay     	| string  |   * if `create-monitor` is true   |
+|     monitor-timeout    	| string	|   * if `create-monitor` is true    |
 |   monitor-max-retries  	|   int  	|   * if `create-monitor` is true   |
 
 
